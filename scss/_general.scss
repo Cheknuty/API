@@ -1,0 +1,26 @@
+/* GENERAL */
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans", "Arial", sans-serif;
+    background-color: #fff;
+    color: $font-color-light-mode;
+    font-weight: 800;
+    height: 100%;
+  }
+  
+  img {
+    max-width: 100%;
+    // height: auto;
+  }

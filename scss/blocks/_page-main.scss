@@ -1,0 +1,117 @@
+.page-main {
+    padding: 90px 0 343px 0;
+    display: block;
+    background-color: $color-bleached-silk;
+}
+
+.page-main__button {
+    margin-bottom: 90px;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: $font-color-light-mode;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 16px;
+    line-height: 20px;
+}
+
+.page-main__button::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/call-made.svg);
+    margin-right: 10px;
+}
+
+.page-main__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-main__img {
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.0294384);
+    border-radius: 10.0057px;
+}
+
+.page-main__wrapper {
+    max-width: 600px;
+    width: 100%;
+}
+
+.page-main__content {
+    display: flex;
+}
+.page-main__content:first-child{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.page-main__content-box {
+    max-width: 270px;
+    width: 100%;
+}
+
+.page-main__content-box:last-child {
+    margin-top: 67px;
+}
+
+.page-main__content-title {
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.page-main__content-subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.page-main__content-subtitle span {
+    font-weight: 300;
+}
+
+.page-main__content:last-child {
+    margin-top: 70px;
+    align-items: center;
+}
+
+.page-main__content-desc {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.page-main__content-list {
+    @include list-unstyled;
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -7px;
+}
+
+.page-main__content-item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 5px 28px;
+    background-color: $color-white;
+    border: 1px solid #979797;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+    border-radius: 2px;
+    margin-bottom: 7px;
+}
+
+.page-main__content-item:not(:last-child) {
+    margin-right: 7px;
+}

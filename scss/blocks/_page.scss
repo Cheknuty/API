@@ -1,0 +1,63 @@
+.page {
+    color: $font-color-light-mode;
+    height: 100%;
+}
+
+.page--dark {
+    color: $font-color-dark-mode;
+}
+
+.page--dark .site-header{
+    background-color: $color-precision;
+}
+
+.page--dark .site-main {
+    background-color: $color-freinacht-black;
+}
+
+.page--dark .site-header__button {
+    color: $font-color-dark-mode;
+}
+
+.page--dark .site-header__button-icon {
+    fill: $color-white;
+    stroke: $color-white;
+}
+
+.page--dark .site-main__form-input, .page--dark .site-main__form-select {
+    background-color: $color-precision;
+    color: $font-color-dark-mode;
+}
+
+.page--dark .site-main__form-input::placeholder {
+    color: $font-color-dark-mode;
+}
+
+.page--dark .site-main__item {
+    background-color: $color-precision;
+}
+
+.page--dark .site-main__form-input {
+    background-image: url(../../img/searchWhite.svg);
+}
+
+.page--dark .site-main__item-link {
+    color: $font-color-dark-mode;
+}
+
+.page--dark .page-main {
+    background-color: $color-freinacht-black;
+}
+
+.page--dark .page-main__button {
+    color: $font-color-dark-mode;
+}
+
+.page--dark .page-main__button::before {
+    background-image: url(../../img/call-madeWhite.svg);
+}
+
+.page--dark .page-main__content-item {
+    background-color: $color-precision;
+    border-color: transparent;
+}
